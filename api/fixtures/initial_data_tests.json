@@ -1,0 +1,40 @@
+[
+{
+    "model": "api.company",
+    "pk": 1,
+    "fields": {
+        "name": "Sadraque Company",
+        "headquarter": 1
+    }
+},
+{
+    "model": "api.company",
+    "pk": 2,
+    "fields": {
+        "name": "Ruhan Company",
+        "headquarter": null
+    }
+},
+{
+    "model": "api.office",
+    "pk": 1,
+    "fields": {
+        "company": 1,
+        "street": "Minha",
+        "postal_code": "Sua",
+        "city": "Aquela",
+        "monthly_rent": "0.00"
+    }
+},
+{
+    "model": "api.office",
+    "pk": 2,
+    "fields": {
+        "company": 1,
+        "street": "Duas",
+        "postal_code": "Postal",
+        "city": "Tres",
+        "monthly_rent": "0.00"
+    }
+}
+]
